@@ -10,7 +10,7 @@ The process typically involves:
 
   | Approach                                   | What It Does                                                                                                                  | Example ML/AI Tools                                      |
 | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| **1. Similarity-based models**             | Find drugs that have similar molecular structure, gene expression, or side-effect profiles to drugs known to treat a disease. | Cosine similarity, KNN, clustering (like your notebook!) |
+| **1. Similarity-based models**             | Find drugs that have similar molecular structure, gene expression, or side-effect profiles to drugs known to treat a disease. | Cosine similarity, KNN, clustering |
 | **2. Network-based models**                | Build graphs linking drugs–targets–diseases and find new connections.                                                         | Graph Neural Networks (GNNs), Network propagation        |
 | **3. Transcriptomic signature matching**   | Compare how drugs and diseases affect gene expression.                                                                        | Deep learning on omics data                              |
 | **4. Knowledge graph / embedding methods** | Use graph embeddings from biomedical literature or databases (DrugBank, PubChem, etc.) to predict new links.                  | Node2Vec, DeepWalk, Transformers                         |
